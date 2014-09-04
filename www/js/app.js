@@ -5,7 +5,9 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('ionic-image-share', [
   'ionic',
-  
+  'imageShare.directives',
+  'imageShare.controllers',
+  'imageShare.services'
 ])
 
 .run(function($ionicPlatform) {
@@ -20,7 +22,7 @@ angular.module('ionic-image-share', [
     }
   });
 })
-
+.value('SOCKET_URL','http://10.160.142.167:8000')
 .config(['$stateProvider', function($stateProvider){
   $stateProvider
     .state('home', {

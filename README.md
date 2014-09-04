@@ -3,6 +3,8 @@ Ionic image share
 
 Tutorial: http://www.htmlxprs.com/post/6/creating-a-realtime-image-sharing-app-with-ionic-and-socketio-tutorial
 
+Get IP address of your machine (Mac): `ifconfig | grep "inet " | grep -v 127.0.0.1`
+
 A starting project for Ionic that optionally supports using custom SCSS.
 
 ## Using this project
